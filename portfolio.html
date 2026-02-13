@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio — TerraCraft Landscapes</title>
+  <meta name="description" content="Browse TerraCraft's portfolio of residential, commercial, and native planting landscaping projects.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo"><span class="leaf">🌿</span> TerraCraft</a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="portfolio.html" class="active">Portfolio</a>
+        <a href="seasonal.html">Seasonal</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <button class="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+  <div class="mobile-overlay"></div>
+  <nav class="mobile-nav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="portfolio.html" class="active">Portfolio</a>
+    <a href="seasonal.html">Seasonal</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="index.html">Home</a> <span>/</span> <span>Portfolio</span></div>
+      <h1 class="reveal">Our Work</h1>
+      <p class="reveal">A showcase of landscapes we've designed, built, and nurtured.</p>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section>
+    <div class="container">
+      <div class="portfolio-filters reveal">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="residential">Residential</button>
+        <button class="filter-btn" data-filter="commercial">Commercial</button>
+        <button class="filter-btn" data-filter="native">Native Planting</button>
+      </div>
+
+      <div class="portfolio-grid">
+        <div class="portfolio-item reveal" data-category="residential">
+          <div class="placeholder-img">🏡<span style="font-size:0.8rem;color:var(--brown-light);">Riverside Retreat</span></div>
+          <div class="portfolio-overlay">
+            <h4>Riverside Garden Retreat</h4>
+            <span>Residential</span>
+          </div>
+        </div>
+        <div class="portfolio-item reveal" data-category="commercial">
+          <div class="placeholder-img">🏢<span style="font-size:0.8rem;color:var(--brown-light);">Office Courtyard</span></div>
+          <div class="portfolio-overlay">
+            <h4>Urban Office Courtyard</h4>
+            <span>Commercial</span>
+          </div>
+        </div>
+        <div class="portfolio-item reveal" data-category="native">
+          <div class="placeholder-img">🌾<span style="font-size:0.8rem;color:var(--brown-light);">Meadow Restoration</span></div>
+          <div class="portfolio-overlay">
+            <h4>Wildflower Meadow</h4>
+            <span>Native Planting</span>
+          </div>
+        </div>
+        <div class="portfolio-item reveal" data-category="residential">
+          <div class="placeholder-img">🪴<span style="font-size:0.8rem;color:var(--brown-light);">Zen Courtyard</span></div>
+          <div class="portfolio-overlay">
+            <h4>Japanese-Inspired Courtyard</h4>
+            <span>Residential</span>
+          </div>
+        </div>
+        <div class="portfolio-item reveal" data-category="commercial">
+          <div class="placeholder-img">🏨<span style="font-size:0.8rem;color:var(--brown-light);">Hotel Grounds</span></div>
+          <div class="portfolio-overlay">
+            <h4>Boutique Hotel Gardens</h4>
+            <span>Commercial</span>
+          </div>
+        </div>
+        <div class="portfolio-item reveal" data-category="native">
+          <div class="placeholder-img">🦋<span style="font-size:0.8rem;color:var(--brown-light);">Pollinator Garden</span></div>
+          <div class="portfolio-overlay">
+            <h4>Community Pollinator Garden</h4>
+            <span>Native Planting</span>
+          </div>
+        </div>
+        <div class="portfolio-item reveal" data-category="residential">
+          <div class="placeholder-img">🔥<span style="font-size:0.8rem;color:var(--brown-light);">Fire Pit Terrace</span></div>
+          <div class="portfolio-overlay">
+            <h4>Hillside Fire Pit Terrace</h4>
+            <span>Residential</span>
+          </div>
+        </div>
+        <div class="portfolio-item reveal" data-category="commercial">
+          <div class="placeholder-img">🏫<span style="font-size:0.8rem;color:var(--brown-light);">School Garden</span></div>
+          <div class="portfolio-overlay">
+            <h4>Elementary School Garden</h4>
+            <span>Commercial</span>
+          </div>
+        </div>
+        <div class="portfolio-item reveal" data-category="native">
+          <div class="placeholder-img">🌿<span style="font-size:0.8rem;color:var(--brown-light);">Rain Garden</span></div>
+          <div class="portfolio-overlay">
+            <h4>Bioswale Rain Garden</h4>
+            <span>Native Planting</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section class="stats-section">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item reveal">
+          <div class="stat-number" data-count="480" data-suffix="+">0</div>
+          <div class="stat-label">Projects Delivered</div>
+        </div>
+        <div class="stat-item reveal">
+          <div class="stat-number" data-count="120" data-suffix="+">0</div>
+          <div class="stat-label">Residential</div>
+        </div>
+        <div class="stat-item reveal">
+          <div class="stat-number" data-count="85" data-suffix="+">0</div>
+          <div class="stat-label">Commercial</div>
+        </div>
+        <div class="stat-item reveal">
+          <div class="stat-number" data-count="60" data-suffix="+">0</div>
+          <div class="stat-label">Native Planting</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <div class="container">
+      <h2 class="reveal">Want Your Property Featured Here?</h2>
+      <p class="reveal">Let's create something beautiful together. Every great landscape starts with a conversation.</p>
+      <a href="contact.html" class="btn btn-primary reveal">Start Your Project</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3>🌿 TerraCraft</h3>
+          <p>Crafting natural outdoor spaces with sustainable practices and timeless design. Rooted in the earth, built for living.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Pages</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>More</h4>
+          <ul>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="seasonal.html">Seasonal</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li>📞 (555) 234-5678</li>
+            <li>✉️ hello@terracraft.com</li>
+            <li>📍 Greenfield, CA</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 TerraCraft Landscapes. All rights reserved.</p>
+        <p>Designed by <a href="https://wingfieldgemini.github.io" target="_blank" rel="noopener">WingfieldGemini</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
