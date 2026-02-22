@@ -318,7 +318,7 @@ p {
 .hero {
   padding-top: 140px;
   padding-bottom: 80px;
-  background: linear-gradient(135deg, var(--forest) 0%, var(--brown) 100%);
+  background: url(https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=1920&h=1080&fit=crop) center/cover;
   position: relative;
   overflow: hidden;
   min-height: 85vh;
@@ -512,7 +512,7 @@ section {
 
 .card-image {
   height: 220px;
-  background: var(--sand);
+  background: url(https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=600&h=400&fit=crop) center/cover;
   position: relative;
   overflow: hidden;
 }
